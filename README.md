@@ -6,12 +6,12 @@
 
 **Descriptions:**
 
-This is a project about recruiting, deploying and managing employees of a business organization. 
-Promote and monitor employee management policies and the business's relationship with human resources.
+	This is a project about recruiting, deploying and managing employees of a business organization. 
+	Promote and monitor employee management policies and the business's relationship with human resources.
 
 **Technologies:**
 
-Selenium Java WebDriver, TestNG, POM, Allure, Extent...
+	Selenium Java WebDriver, TestNG, POM, Allure, Extent...
 
 **Test script Descriptions:**
 
@@ -29,12 +29,12 @@ Selenium Java WebDriver, TestNG, POM, Allure, Extent...
     - Login valid data
 
     Manage Projects Page:
-    - Add
+    - Create
     - Edit
     - Delete
   
     Tasks and Project Page: 
-    - Add
+    - Create
     - Delete 
     - Update Status Project 
     - Add Attach File Project
