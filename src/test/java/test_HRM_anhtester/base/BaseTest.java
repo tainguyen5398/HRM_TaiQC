@@ -1,12 +1,9 @@
-package Test_HRM_AnhTester.Base;
+package test_HRM_anhtester.base;
 
-
-
-
-import Main_HRM_AnhTester.Driver.DriverManager;
-import Main_HRM_AnhTester.Helpers.PropertiesHelper;
-import Test_HRM_AnhTester.Listeners.TestListener;
-import Test_HRM_AnhTester.Pages.CommonPage;
+import main_HRM_anhtester.driver.DriverManager;
+import main_HRM_anhtester.helpers.PropertiesHelper;
+import test_HRM_anhtester.listeners.TestListener;
+import test_HRM_anhtester.pages.CommonPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -19,7 +16,6 @@ import java.time.Duration;
 
 @Listeners(TestListener.class)
 public class BaseTest extends CommonPage {
-
     public BaseTest() {
         PropertiesHelper.loadAllFiles();
     }
@@ -54,8 +50,8 @@ public class BaseTest extends CommonPage {
     private static WebDriver initChromeDriver() {
         WebDriver driver;
         System.out.println("Launching Chrome browser...");
-//        ChromeOptions options = new ChromeOptions();
-//        options.addArguments("--remote-allow-origins=*");
+        ChromeOptions options = new ChromeOptions();
+        options.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.manage().timeouts().scriptTimeout(Duration.ofSeconds(20));

@@ -1,13 +1,13 @@
-package Test_HRM_AnhTester.Listeners;
+package test_HRM_anhtester.listeners;
 
 
 
-import Main_HRM_AnhTester.Helpers.CaptureHelper;
-import Main_HRM_AnhTester.Helpers.RecordVideo;
-import Main_HRM_AnhTester.Reports.AllureReportManager;
-import Main_HRM_AnhTester.Reports.ExtentReportManager;
-import Main_HRM_AnhTester.Reports.ExtentReportTestManager;
-import Main_HRM_AnhTester.Utils.Log;
+import main_HRM_anhtester.helpers.CaptureHelper;
+import main_HRM_anhtester.helpers.RecordVideo;
+import main_HRM_anhtester.reports.AllureReportManager;
+import main_HRM_anhtester.reports.ExtentReportManager;
+import main_HRM_anhtester.reports.ExtentReportTestManager;
+import main_HRM_anhtester.utils.Log;
 import com.aventstack.extentreports.Status;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -26,12 +26,12 @@ public class TestListener implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         Log.info("Start Suite: " + iTestContext.getStartDate());
-        RecordVideo.startRecord(iTestContext.getName());
+//        RecordVideo.startRecord(iTestContext.getName());
     }
     @Override
     public void onFinish(ITestContext result) {
         Log.info("Finish Suite: " + result.getEndDate());
-        RecordVideo.stopRecord();
+//        RecordVideo.stopRecord();
         ExtentReportManager.getExtentReports().flush();
         //RunCMD.Allure("allure serve target/allure-results");
     }
@@ -61,12 +61,12 @@ public class TestListener implements ITestListener {
         CaptureHelper.captureScreenshot(result);
 
         //Extent Report
-        ExtentReportTestManager.addScreenShot(result.getName());
-        ExtentReportTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
-
-        //Allure Report
-        AllureReportManager.saveScreenshotPNG();
-        AllureReportManager.saveTextLog(getTestName(result) + " is failed ");
+//        ExtentReportTestManager.addScreenShot(result.getName());
+//        ExtentReportTestManager.logMessage(Status.FAIL, result.getName() + " is failed.");
+//
+//        //Allure Report
+//        AllureReportManager.saveScreenshotPNG();
+//        AllureReportManager.saveTextLog(getTestName(result) + " is failed ");
     }
     @Override
     public void onTestSkipped(ITestResult result) {

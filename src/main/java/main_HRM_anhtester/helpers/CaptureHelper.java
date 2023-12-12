@@ -1,9 +1,9 @@
-package Main_HRM_AnhTester.Helpers;
+package main_HRM_anhtester.helpers;
 
 
 
 
-import Main_HRM_AnhTester.Driver.DriverManager;
+import main_HRM_anhtester.driver.DriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.io.FileHandler;

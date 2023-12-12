@@ -1,4 +1,4 @@
-package Main_HRM_AnhTester.Helpers;
+package main_HRM_anhtester.helpers;
 
 public class PathToProject {
     public static String getCurrentDir() {

@@ -1,7 +1,7 @@
-package Main_HRM_AnhTester.Reports;
+package main_HRM_anhtester.reports;
 
 
-import Main_HRM_AnhTester.Driver.DriverManager;
+import main_HRM_anhtester.driver.DriverManager;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;

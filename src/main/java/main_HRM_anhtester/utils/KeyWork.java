@@ -1,10 +1,10 @@
-package Main_HRM_AnhTester.Utils;
+package main_HRM_anhtester.utils;
 
 
 
-import Main_HRM_AnhTester.Driver.DriverManager;
-import Main_HRM_AnhTester.Reports.AllureReportManager;
-import Main_HRM_AnhTester.Reports.ExtentReportTestManager;
+import main_HRM_anhtester.driver.DriverManager;
+import main_HRM_anhtester.reports.AllureReportManager;
+import main_HRM_anhtester.reports.ExtentReportTestManager;
 import com.aventstack.extentreports.Status;
 import io.qameta.allure.Step;
 import org.openqa.selenium.By;
@@ -13,6 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
@@ -307,12 +308,19 @@ public class KeyWork {
         }
         Assert.assertTrue(expected, "The current URL is: " + DriverManager.getDriver().getCurrentUrl() + "\ndoesn't contains" + myURL );
     }
+    public static Boolean verifyURLnotReport(String myURL){
+        waitForPageLoaded();
+        WebDriverWait wait = new WebDriverWait(DriverManager.getDriver(),Duration.ofSeconds(TIMEOUT),Duration.ofMillis(500));
+        wait.until(ExpectedConditions.urlContains(myURL));
+        sleep(STEP_TIME);
+        return DriverManager.getDriver().getCurrentUrl().contains(myURL);
+    }
 
 
     //Hàm để chọn và tải tệp từ máy tính
     //Muốn sử dụng chỉ cần gọi lại tên hàm và truyền vào cho nó Vị trí đầy đủ của File muốn tải lên
     @Step("Upload file {0} to the system")
-    public static void UploadFile(String FileLocation) {
+    public static void uploadFileRobotClass(String FileLocation) {
         try {
             robot = new Robot();
         } catch (AWTException e) {
@@ -329,6 +337,16 @@ public class KeyWork {
         robot.keyPress(KeyEvent.VK_ENTER);
         robot.keyRelease(KeyEvent.VK_ENTER);
     }
+
+
+    public static void uploadFileWithSendKeys(By by, String value) throws InterruptedException {
+       waitForPageLoaded();
+       waitForElementVisible(by);
+       Thread.sleep(2000);
+       getWebElement(by).sendKeys(value);
+       Thread.sleep(2000);
+    }
+
 
     public static boolean pressCtrlC() {
         try {
@@ -568,6 +586,16 @@ public class KeyWork {
             sleep(1);
         }
         return getWebElement(by);
+    }
+
+    public static void selectValueDropdown(By by, String value){
+        Select select = new Select(getWebElement(by));
+        select.selectByValue(value);
+    }
+
+    public static void selectByVisibleTextDropdown(By by, String Text){
+        Select select = new Select(getWebElement(by));
+        select.selectByVisibleText(Text);
     }
 
 }

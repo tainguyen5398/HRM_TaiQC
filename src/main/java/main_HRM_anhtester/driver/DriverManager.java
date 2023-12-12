@@ -1,4 +1,4 @@
-package Main_HRM_AnhTester.Driver;
+package main_HRM_anhtester.driver;
 
 import org.openqa.selenium.WebDriver;
 

@@ -1,8 +1,8 @@
-package Main_HRM_AnhTester.Reports;
+package main_HRM_anhtester.reports;
 
 
 
-import Main_HRM_AnhTester.Driver.DriverManager;
+import main_HRM_anhtester.driver.DriverManager;
 import io.qameta.allure.Attachment;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;

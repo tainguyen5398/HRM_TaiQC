@@ -1,4 +1,4 @@
-package Main_HRM_AnhTester.Utils;
+package main_HRM_anhtester.utils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
