@@ -26,6 +26,7 @@ public class BaseTest extends CommonPage {
 //       RecordVideo.startRecord("TC1_login");
         WebDriver driver = setupBrowser(browserName);
         DriverManager.setDriver(driver);
+
     }
 
     public static WebDriver setupBrowser(String browserName) {

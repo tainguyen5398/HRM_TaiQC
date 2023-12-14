@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parallel Suite All" verbose="1">
+
+    <test name="Parallel class" parallel="methods">
+        <classes>
+            <class name="test_HRM_anhtester.testcases.ManageClientsTest"/>
+        </classes>
+    </test>
+
+</suite>

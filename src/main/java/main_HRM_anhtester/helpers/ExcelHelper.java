@@ -8,6 +8,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Hashtable;
 import java.util.Map;
+
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFCellStyle;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -45,7 +46,7 @@ public class ExcelHelper {
             this.excelFilePath = ExcelPath;
 
             //adding all the column header names to the map 'columns'
-            sh.getRow(0).forEach(cell ->{
+            sh.getRow(0).forEach(cell -> {
                 columns.put(cell.getStringCellValue(), cell.getColumnIndex());
             });
 
@@ -55,21 +56,18 @@ public class ExcelHelper {
     }
 
     public String getCellData(int rownum, int colnum) {
-        try{
+        try {
             cell = sh.getRow(rownum).getCell(colnum);
             String CellData = null;
-            switch (cell.getCellType()){
+            switch (cell.getCellType()) {
                 case STRING:
                     CellData = cell.getStringCellValue();
                     break;
                 case NUMERIC:
-                    if (DateUtil.isCellDateFormatted(cell))
-                    {
+                    if (DateUtil.isCellDateFormatted(cell)) {
                         CellData = String.valueOf(cell.getDateCellValue());
-                    }
-                    else
-                    {
-                        CellData = String.valueOf((long)cell.getNumericCellValue());
+                    } else {
+                        CellData = String.valueOf((long) cell.getNumericCellValue());
                     }
                     break;
                 case BOOLEAN:
@@ -80,15 +78,16 @@ public class ExcelHelper {
                     break;
             }
             return CellData;
-        }catch (Exception e){
-            return"";
+        } catch (Exception e) {
+            return "";
         }
     }
 
     //Gọi ra hàm này nè
-    public String getCellData(String columnName, int rownum){
+    public String getCellData(String columnName, int rownum) {
         return getCellData(rownum, columns.get(columnName));
     }
+
     //Get last row number (lấy vị trí dòng cuối cùng tính từ 0)
     public int getLastRowNum() {
         return sh.getLastRowNum();
@@ -98,7 +97,6 @@ public class ExcelHelper {
     public int getPhysicalNumberOfRows() {
         return sh.getPhysicalNumberOfRows();
     }
-
 
 
     // Write data to excel sheet
@@ -270,9 +268,9 @@ public class ExcelHelper {
             System.out.println("StartRow: " + startRow + " - EndRow: " + endRow);
 
             data = new Object[(endRow - startRow) + 1][1];
-            Hashtable< String, String > table = null;
+            Hashtable<String, String> table = null;
             for (int rowNums = startRow; rowNums <= endRow; rowNums++) {
-                table = new Hashtable < > ();
+                table = new Hashtable<>();
                 for (int colNum = 0; colNum < columns; colNum++) {
                     table.put(getCellData(0, colNum), getCellData(rowNums, colNum));
                 }

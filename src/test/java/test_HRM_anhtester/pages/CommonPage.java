@@ -14,6 +14,8 @@ public class CommonPage {
         }
         return excel;
     }
+
+
     public LoginPage getLoginPage() {
         if (loginPage == null) {
             loginPage = new LoginPage();

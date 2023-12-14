@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class LoginTest extends BaseTest {
     @Test
-    public void TC_loginAdmin(){
-        getLoginPage().loginAdmin("admin_example","123456");
+    public void TC_loginAdmin(String Username, String Password){
+        getLoginPage().loginAdmin(Username,Password);
     }
 }

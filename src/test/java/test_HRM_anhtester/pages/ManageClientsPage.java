@@ -1,11 +1,13 @@
 package test_HRM_anhtester.pages;
 
 import main_HRM_anhtester.driver.DriverManager;
+import main_HRM_anhtester.helpers.PropertiesHelper;
 import main_HRM_anhtester.utils.KeyWork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import java.util.List;
+import java.util.Properties;
 
 public class ManageClientsPage extends CommonPage {
 
@@ -22,18 +24,18 @@ public class ManageClientsPage extends CommonPage {
     private final By clickBrowseAttachmentButton = By.xpath("//*[@id=\"xin-form\"]/div[1]/div[2]/div/div[2]/div/div/div/div");
     private final By clickOnSaveButton = By.xpath("//div[@class='card-footer text-right']//button[@type='submit']");
 
-    public void addNewClient(String email) {
+    public void addNewClient(String FirstName, String LastName, String Password, String ContactNumber, String Email, String Username ) {
         KeyWork.scrollToElement(clickManageClientsTilte);
         KeyWork.clickElementWithJS(clickManageClientsTilte);
         KeyWork.clickElement(clickOnAddClientButton);
-        KeyWork.setText(inputFirstNameTextbox, "Nguyen");
-        KeyWork.setText(inputLastNameTextbox, "Tai");
-        KeyWork.setText(inputPasswordTextbox, "111111");
-        KeyWork.setText(inputContractNumberTextbox, "1");
-        KeyWork.setText(inputEmailTextbox, email);
-        KeyWork.setText(inputUsernameTextbox, "tainguyen");
+        KeyWork.setText(inputFirstNameTextbox, FirstName);
+        KeyWork.setText(inputLastNameTextbox, LastName);
+        KeyWork.setText(inputPasswordTextbox, Password);
+        KeyWork.setText(inputContractNumberTextbox, ContactNumber);
+        KeyWork.setText(inputEmailTextbox, Email);
+        KeyWork.setText(inputUsernameTextbox, Username);
         KeyWork.clickElement(clickBrowseAttachmentButton);
-        KeyWork.uploadFileRobotClass("C:\\HRM_TaiQC\\src\\main\\java\\Main_HRM_AnhTester\\DataTest\\file\\ProfilePicture.jpg");
+        KeyWork.uploadFileRobotClass(PropertiesHelper.getValue("ProfilePicture"));
         KeyWork.clickElement(clickOnSaveButton);
     }
 
@@ -55,10 +57,9 @@ public class ManageClientsPage extends CommonPage {
         int rowtotal = KeyWork.getSize(getEmailClientText, 0);
         KeyWork.sleep(2);
         for (int i = 1; i <= rowtotal; i++) {
-            KeyWork.LogConsole("dòng" + i);
             WebElement elementCheck = KeyWork.getWebElement(By.xpath("//table/tbody/tr[" + i + "]/td[1]/div[1]/div/p"));
 
-            if ((elementCheck.getText()).equals(value)){
+            if ((elementCheck.getText()).equals(value)) {
                 KeyWork.sleep(1);
                 KeyWork.moveToElement(By.xpath("//tbody/tr[" + i + "]/td[1]/div[2]/span[1]/a[1]/button[1]"));
                 KeyWork.clickElementWithJS(By.xpath("//tbody/tr[" + i + "]/td[1]/div[2]/span[1]/a[1]/button[1]"));
@@ -66,8 +67,14 @@ public class ManageClientsPage extends CommonPage {
                 KeyWork.sleep(2);
                 break;
             }
+            else {
+                if (i == rowtotal) {
+                    KeyWork.LogConsole("Đã tìm toàn bộ danh sách Client NHƯNG không thấy Client mong muốn");
+                }
+            }
         }
     }
+
     final By clickOnStatusDropdown = By.xpath("//form//div[1]/div[5]/div/span");
     final By clickOnValueStatusDropdown = By.xpath("//span/span[2]/ul/li[2]");
     final By clickOnCountryDropdown = By.xpath("//form/div[1]//div[8]/div/span");
@@ -76,19 +83,20 @@ public class ManageClientsPage extends CommonPage {
     final By inputAddressLine2Textbox = By.xpath("//input[@placeholder='Address Line 2']");
     final By inputCityTextbox = By.xpath("//input[@placeholder='City']");
     final By clickOnSaveEditClientButton = By.xpath("//div[@class='card-body']//button[@type='submit']");
-    public void editClient(){
-        KeyWork.setText(inputFirstNameTextbox, "Dang");
-        KeyWork.setText(inputLastNameTextbox, "Nhan");
-        KeyWork.setText(inputEmailTextbox, "nhandang@gmail.com");
-        KeyWork.setText(inputUsernameTextbox, "nhandang");
+
+    public void editClient(String FirstName, String LastName, String Email, String Username, String ContactNumber, String Address, String AddressLine2, String City) {
+        KeyWork.setText(inputFirstNameTextbox, FirstName);
+        KeyWork.setText(inputLastNameTextbox, LastName);
+        KeyWork.setText(inputEmailTextbox, Email);
+        KeyWork.setText(inputUsernameTextbox, Username);
         KeyWork.clickElement(clickOnStatusDropdown);
         KeyWork.clickElement(clickOnValueStatusDropdown);
-        KeyWork.setText(inputContractNumberTextbox, "0708663153");
+        KeyWork.setText(inputContractNumberTextbox, ContactNumber);
         KeyWork.clickElement(clickOnCountryDropdown);
         KeyWork.clickElement(clickOnValueCountryDropdown);
-        KeyWork.setText(inputAddressTextbox,"865 Quang Trung");
-        KeyWork.setText(inputAddressLine2Textbox,"P14 Go Vap");
-        KeyWork.setText(inputCityTextbox,"TP HCM");
+        KeyWork.setText(inputAddressTextbox, Address);
+        KeyWork.setText(inputAddressLine2Textbox, AddressLine2);
+        KeyWork.setText(inputCityTextbox, City);
         KeyWork.clickElement(clickOnSaveEditClientButton);
     }
 
@@ -106,10 +114,9 @@ public class ManageClientsPage extends CommonPage {
         int rowtotal = KeyWork.getSize(getEmailClientText, 0);
         KeyWork.sleep(2);
         for (int i = 1; i <= rowtotal; i++) {
-            KeyWork.LogConsole("dòng" + i);
             WebElement elementCheck = KeyWork.getWebElement(By.xpath("//table/tbody/tr[" + i + "]/td[1]/div[1]/div/p"));
 
-            if ((elementCheck.getText()).equals(value)){
+            if ((elementCheck.getText()).equals(value)) {
                 KeyWork.sleep(1);
                 KeyWork.moveToElement(By.xpath("//tbody/tr[" + i + "]/td[1]/div[2]/span[2]/button[1]"));
                 KeyWork.clickElementWithJS(By.xpath("//tbody/tr[" + i + "]/td[1]/div[2]/span[2]/button[1]"));
@@ -117,11 +124,17 @@ public class ManageClientsPage extends CommonPage {
                 KeyWork.sleep(2);
                 break;
             }
+            else {
+                if (i == rowtotal) {
+                    KeyWork.LogConsole("Không tìm thấy Client để có thể xóa");
+                }
+            }
         }
     }
 
     final By clickOnConfirmDeleteButton = By.xpath("//div[@class='modal-footer']//button[@type='submit']");
-    public void deleteClient(){
+
+    public void deleteClient() {
         KeyWork.clickElementWithJS(clickOnConfirmDeleteButton);
     }
 
