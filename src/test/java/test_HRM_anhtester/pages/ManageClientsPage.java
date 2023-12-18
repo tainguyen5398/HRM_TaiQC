@@ -1,13 +1,10 @@
 package test_HRM_anhtester.pages;
 
-import main_HRM_anhtester.driver.DriverManager;
 import main_HRM_anhtester.helpers.PropertiesHelper;
 import main_HRM_anhtester.utils.KeyWork;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
-import java.util.List;
-import java.util.Properties;
 
 public class ManageClientsPage extends CommonPage {
 
