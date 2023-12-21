@@ -1058,3 +1058,339 @@ Session ID: d32c1aeeac24f3a1fda4e0704461f9b5
 [ERROR] 14-12-2023 21:41:23 [TestNG-test=Parallel class-1] Log - TIMEOUT: Can not element visible: By.xpath: //div[contains(text(),'Client added.')]
 [ERROR] 14-12-2023 21:41:23 [TestNG-test=Parallel class-1] Log - addNewClient is failed.
 [INFO] 14-12-2023 21:41:24 [main] Log - Finish Suite: Thu Dec 14 21:41:24 ICT 2023
+[INFO] 20-12-2023 23:27:10 [main] Log - Start Suite: Wed Dec 20 23:27:09 ICT 2023
+[INFO] 20-12-2023 23:27:17 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 20-12-2023 23:27:17 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 20-12-2023 23:27:17 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 20-12-2023 23:27:17 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 20-12-2023 23:27:21 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 20-12-2023 23:27:21 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 20-12-2023 23:27:22 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 20-12-2023 23:27:22 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 20-12-2023 23:27:23 [main] Log - Set Text: Bằng on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 20-12-2023 23:27:23 [main] Log - Set Text: Kiều on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 20-12-2023 23:27:23 [main] Log - Set Text: 112200 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 20-12-2023 23:27:23 [main] Log - Set Text: 0708663153 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 20-12-2023 23:27:24 [main] Log - Set Text: kieubang@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 20-12-2023 23:27:24 [main] Log - Set Text: kieubang on the element By.xpath: //input[@placeholder='Username']
+[INFO] 20-12-2023 23:27:24 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 20-12-2023 23:27:30 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 20-12-2023 23:27:32 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 20-12-2023 23:27:32 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 20-12-2023 23:27:32 [main] Log - addNewClient is passed.
+[INFO] 20-12-2023 23:27:38 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 20-12-2023 23:27:38 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 20-12-2023 23:27:38 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 20-12-2023 23:27:38 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 20-12-2023 23:27:42 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 20-12-2023 23:27:42 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 20-12-2023 23:27:43 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 20-12-2023 23:27:43 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[ERROR] 20-12-2023 23:27:43 [main] Log - editClient is failed.
+[INFO] 20-12-2023 23:27:49 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 20-12-2023 23:27:49 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 20-12-2023 23:27:50 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 20-12-2023 23:27:50 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 20-12-2023 23:27:53 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 20-12-2023 23:27:53 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 20-12-2023 23:27:54 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[ERROR] 20-12-2023 23:28:07 [main] Log - TIMEOUT: Can not element visible: By.xpath: //div[@class='modal-footer']//button[@type='submit']
+[ERROR] 20-12-2023 23:28:07 [main] Log - deleteClient is failed.
+[INFO] 20-12-2023 23:28:08 [main] Log - Finish Suite: Wed Dec 20 23:28:08 ICT 2023
+[INFO] 20-12-2023 23:28:58 [main] Log - Start Suite: Wed Dec 20 23:28:57 ICT 2023
+[INFO] 20-12-2023 23:29:04 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 20-12-2023 23:29:04 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 20-12-2023 23:29:04 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 20-12-2023 23:29:04 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 20-12-2023 23:29:08 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 20-12-2023 23:29:08 [main] Log - EXPECTED RESULT Text is: Home
+[ERROR] 20-12-2023 23:29:08 [main] Log - editClient is failed.
+[INFO] 20-12-2023 23:29:10 [main] Log - Finish Suite: Wed Dec 20 23:29:10 ICT 2023
+[INFO] 20-12-2023 23:30:29 [main] Log - Start Suite: Wed Dec 20 23:30:28 ICT 2023
+[INFO] 20-12-2023 23:30:35 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 20-12-2023 23:30:35 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 20-12-2023 23:30:35 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 20-12-2023 23:30:35 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 20-12-2023 23:30:39 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 20-12-2023 23:30:39 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 20-12-2023 23:30:40 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 20-12-2023 23:30:40 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 20-12-2023 23:30:41 [main] Log - Set Text: Tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 20-12-2023 23:30:41 [main] Log - Set Text: Tai on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 20-12-2023 23:30:41 [main] Log - Set Text: 112200 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 20-12-2023 23:30:41 [main] Log - Set Text: 0708663154 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 20-12-2023 23:30:42 [main] Log - Set Text: tantai@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 20-12-2023 23:30:42 [main] Log - Set Text: tantai on the element By.xpath: //input[@placeholder='Username']
+[INFO] 20-12-2023 23:30:42 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 20-12-2023 23:30:48 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 20-12-2023 23:30:49 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 20-12-2023 23:30:49 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 20-12-2023 23:30:50 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 20-12-2023 23:30:54 [main] Log - Click on the element with JS: By.xpath: //tbody/tr[2]/td[1]/div[2]/span[1]/a[1]/button[1]
+[INFO] 20-12-2023 23:30:56 [main] Log - Set Text: Tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 20-12-2023 23:30:56 [main] Log - Set Text: Tai on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 20-12-2023 23:30:56 [main] Log - Set Text: tantai@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 20-12-2023 23:30:56 [main] Log - Set Text: tantai on the element By.xpath: //input[@placeholder='Username']
+[INFO] 20-12-2023 23:30:56 [main] Log - Click on the element: By.xpath: //form//div[1]/div[5]/div/span
+[INFO] 20-12-2023 23:30:56 [main] Log - Click on the element: By.xpath: //span/span[2]/ul/li[2]
+[INFO] 20-12-2023 23:30:57 [main] Log - Set Text: 0589157653 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 20-12-2023 23:30:57 [main] Log - Click on the element: By.xpath: //form/div[1]//div[8]/div/span
+[INFO] 20-12-2023 23:30:57 [main] Log - Click on the element: By.xpath: //span[2]/ul/li[237]
+[INFO] 20-12-2023 23:30:57 [main] Log - Set Text: 23 on the element By.xpath: //input[@placeholder='Address']
+[INFO] 20-12-2023 23:30:57 [main] Log - Set Text: Lê Duẩn on the element By.xpath: //input[@placeholder='Address Line 2']
+[INFO] 20-12-2023 23:30:57 [main] Log - Set Text: TP HCM on the element By.xpath: //input[@placeholder='City']
+[INFO] 20-12-2023 23:30:57 [main] Log - Click on the element: By.xpath: //div[@class='card-body']//button[@type='submit']
+[INFO] 20-12-2023 23:30:58 [main] Log - ACTUAL RESULT: Text of the element is: Client updated.
+[INFO] 20-12-2023 23:30:58 [main] Log - EXPECTED RESULT Text is: Client updated.
+[INFO] 20-12-2023 23:30:58 [main] Log - editClient is passed.
+[INFO] 20-12-2023 23:30:59 [main] Log - Finish Suite: Wed Dec 20 23:30:59 ICT 2023
+[INFO] 21-12-2023 15:13:41 [main] Log - Start Suite: Thu Dec 21 15:13:40 ICT 2023
+[INFO] 21-12-2023 15:13:49 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:13:49 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:13:49 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:13:49 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:13:54 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:13:54 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:13:56 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:13:56 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:13:56 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:13:57 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:13:57 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:13:57 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:13:57 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:13:57 [main] Log - Set Text:  on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:13:57 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:14:04 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[ERROR] 21-12-2023 15:14:14 [main] Log - TIMEOUT: Can not element visible: By.xpath: //div[contains(text(),'Client added.')]
+[ERROR] 21-12-2023 15:14:14 [main] Log - addNewClient is failed.
+[INFO] 21-12-2023 15:14:18 [main] Log - Open: https://hrm.anhtester.com/
+[ERROR] 21-12-2023 15:14:18 [main] Log - editClient is failed.
+[INFO] 21-12-2023 15:14:21 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:14:22 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:14:22 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:14:22 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:14:26 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:14:26 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:14:27 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[ERROR] 21-12-2023 15:14:27 [main] Log - deleteClient is failed.
+[INFO] 21-12-2023 15:14:28 [main] Log - Finish Suite: Thu Dec 21 15:14:28 ICT 2023
+[INFO] 21-12-2023 15:15:01 [main] Log - Start Suite: Thu Dec 21 15:15:00 ICT 2023
+[INFO] 21-12-2023 15:15:07 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:15:07 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:15:07 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:15:07 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:15:11 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:15:11 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:15:12 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:15:13 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:15:13 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:15:13 [main] Log - Set Text: phat on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:15:14 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:15:14 [main] Log - Set Text: 0386016093 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:15:14 [main] Log - Set Text: tanphat@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:15:14 [main] Log - Set Text: tanphat on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:15:14 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:15:21 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:15:22 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:15:22 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:15:23 [main] Log - addNewClient is passed.
+[INFO] 21-12-2023 15:15:26 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:15:26 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:15:27 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:15:27 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:15:31 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:15:31 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:15:32 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:15:32 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:15:33 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:15:33 [main] Log - Set Text: tai on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:15:33 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:15:34 [main] Log - Set Text: 0708663153 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:15:34 [main] Log - Set Text: tantai@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:15:34 [main] Log - Set Text: tantai on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:15:34 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:15:40 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[ERROR] 21-12-2023 15:15:51 [main] Log - TIMEOUT: Can not element visible: By.xpath: //div[contains(text(),'Client added.')]
+[ERROR] 21-12-2023 15:15:51 [main] Log - editClient is failed.
+[INFO] 21-12-2023 15:15:55 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:15:56 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:15:56 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:15:56 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:16:00 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:16:00 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:16:01 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:16:01 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:16:02 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:16:02 [main] Log - Set Text: loc on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:16:02 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:16:02 [main] Log - Set Text: 0343760115 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:16:02 [main] Log - Set Text: tanloc@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:16:03 [main] Log - Set Text: tanloc on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:16:03 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:16:09 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:16:11 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:16:11 [main] Log - EXPECTED RESULT Text is: Client added.
+[ERROR] 21-12-2023 15:16:11 [main] Log - deleteClient is failed.
+[INFO] 21-12-2023 15:16:12 [main] Log - Finish Suite: Thu Dec 21 15:16:12 ICT 2023
+[INFO] 21-12-2023 15:18:13 [main] Log - Start Suite: Thu Dec 21 15:18:12 ICT 2023
+[INFO] 21-12-2023 15:18:19 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:18:19 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:18:19 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:18:19 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:18:23 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:18:24 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:18:25 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:18:25 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:18:25 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:18:25 [main] Log - Set Text: phat on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:18:26 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:18:26 [main] Log - Set Text: 0386016093 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:18:26 [main] Log - Set Text: tanphat@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:18:26 [main] Log - Set Text: tanphat on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:18:27 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:18:33 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:18:34 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:18:35 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:18:35 [main] Log - addNewClient is passed.
+[INFO] 21-12-2023 15:18:39 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:18:39 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:18:39 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:18:39 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:18:43 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:18:43 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:18:44 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:18:44 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:18:45 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:18:45 [main] Log - Set Text: tai on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:18:45 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:18:45 [main] Log - Set Text: 0708663153 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:18:46 [main] Log - Set Text: tantai@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:18:46 [main] Log - Set Text: tantai on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:18:46 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:18:52 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:18:55 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:18:55 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:18:55 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[ERROR] 21-12-2023 15:19:08 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='First Name']
+[ERROR] 21-12-2023 15:19:09 [main] Log - editClient is failed.
+[INFO] 21-12-2023 15:19:13 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:19:13 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:19:13 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:19:13 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:19:17 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:19:17 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:19:18 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:19:19 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:19:19 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:19:20 [main] Log - Set Text: loc on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:19:20 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:19:20 [main] Log - Set Text: 0343760115 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:19:20 [main] Log - Set Text: tanloc@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:19:20 [main] Log - Set Text: tanloc on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:19:20 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:19:27 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:19:28 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:19:28 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:19:29 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[ERROR] 21-12-2023 15:19:42 [main] Log - TIMEOUT: Can not element visible: By.xpath: //div[@class='modal-footer']//button[@type='submit']
+[ERROR] 21-12-2023 15:19:42 [main] Log - deleteClient is failed.
+[INFO] 21-12-2023 15:19:43 [main] Log - Finish Suite: Thu Dec 21 15:19:43 ICT 2023
+[INFO] 21-12-2023 15:21:14 [main] Log - Start Suite: Thu Dec 21 15:21:12 ICT 2023
+[INFO] 21-12-2023 15:21:52 [main] Log - Start Suite: Thu Dec 21 15:21:51 ICT 2023
+[INFO] 21-12-2023 15:21:58 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:21:59 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:21:59 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:21:59 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:22:03 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:22:03 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:22:04 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:22:04 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:22:05 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:22:05 [main] Log - Set Text: phat on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:22:05 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:22:05 [main] Log - Set Text: 0386016093 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:22:06 [main] Log - Set Text: tanphat@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:22:06 [main] Log - Set Text: tanphat on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:22:06 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:22:12 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:22:50 [main] Log - Start Suite: Thu Dec 21 15:22:49 ICT 2023
+[INFO] 21-12-2023 15:22:56 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:22:57 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:22:57 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:22:57 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:23:01 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:23:01 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:23:02 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:23:02 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:23:03 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:23:03 [main] Log - Set Text: phat on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:23:03 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:23:03 [main] Log - Set Text: 0386016093 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:23:04 [main] Log - Set Text: tanphat@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:23:04 [main] Log - Set Text: tanphat on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:23:04 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:23:10 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:23:12 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:23:12 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:23:12 [main] Log - addNewClient is passed.
+[INFO] 21-12-2023 15:23:16 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:23:17 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:23:17 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:23:17 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:23:22 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:23:22 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:23:23 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:23:23 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:23:24 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:23:24 [main] Log - Set Text: tai on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:23:24 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:23:24 [main] Log - Set Text: 0708663153 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:23:25 [main] Log - Set Text: tantai@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:23:25 [main] Log - Set Text: tantai on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:23:25 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:23:31 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:23:33 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:23:33 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:23:34 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:23:38 [main] Log - Click on the element with JS: By.xpath: //tbody/tr[5]/td[1]/div[2]/span[1]/a[1]/button[1]
+[INFO] 21-12-2023 15:23:41 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:23:41 [main] Log - Set Text: phuoc on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:23:41 [main] Log - Set Text: tanphuoc@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:23:41 [main] Log - Set Text: tanphuoc on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:23:41 [main] Log - Click on the element: By.xpath: //form//div[1]/div[5]/div/span
+[INFO] 21-12-2023 15:23:42 [main] Log - Click on the element: By.xpath: //span/span[2]/ul/li[2]
+[INFO] 21-12-2023 15:23:42 [main] Log - Set Text: 0589157653 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:23:42 [main] Log - Click on the element: By.xpath: //form/div[1]//div[8]/div/span
+[INFO] 21-12-2023 15:23:42 [main] Log - Click on the element: By.xpath: //span[2]/ul/li[237]
+[INFO] 21-12-2023 15:23:42 [main] Log - Set Text: 3 Sông thao on the element By.xpath: //input[@placeholder='Address']
+[INFO] 21-12-2023 15:23:43 [main] Log - Set Text: 4 Sông thao on the element By.xpath: //input[@placeholder='Address Line 2']
+[INFO] 21-12-2023 15:23:43 [main] Log - Set Text: Thành Phố Hồ Chí Minh on the element By.xpath: //input[@placeholder='City']
+[INFO] 21-12-2023 15:23:43 [main] Log - Click on the element: By.xpath: //div[@class='card-body']//button[@type='submit']
+[INFO] 21-12-2023 15:23:44 [main] Log - ACTUAL RESULT: Text of the element is: Client updated.
+[INFO] 21-12-2023 15:23:44 [main] Log - EXPECTED RESULT Text is: Client updated.
+[INFO] 21-12-2023 15:23:44 [main] Log - editClient is passed.
+[INFO] 21-12-2023 15:23:50 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 21-12-2023 15:23:50 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 21-12-2023 15:23:51 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 21-12-2023 15:23:51 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 21-12-2023 15:23:56 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 21-12-2023 15:23:56 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 21-12-2023 15:23:57 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:23:57 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 21-12-2023 15:23:58 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 21-12-2023 15:23:58 [main] Log - Set Text: loc on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 21-12-2023 15:23:59 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 21-12-2023 15:23:59 [main] Log - Set Text: 0343760115 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 21-12-2023 15:23:59 [main] Log - Set Text: tanloc@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 21-12-2023 15:23:59 [main] Log - Set Text: tanloc on the element By.xpath: //input[@placeholder='Username']
+[INFO] 21-12-2023 15:23:59 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 21-12-2023 15:24:06 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[INFO] 21-12-2023 15:24:08 [main] Log - ACTUAL RESULT: Text of the element is: Client added.
+[INFO] 21-12-2023 15:24:08 [main] Log - EXPECTED RESULT Text is: Client added.
+[INFO] 21-12-2023 15:24:08 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 21-12-2023 15:24:13 [main] Log - Click on the element with JS: By.xpath: //tbody/tr[4]/td[1]/div[2]/span[2]/button[1]
+[INFO] 21-12-2023 15:24:15 [main] Log - Click on the element with JS: By.xpath: //div[@class='modal-footer']//button[@type='submit']
+[INFO] 21-12-2023 15:24:16 [main] Log - ACTUAL RESULT: Text of the element is: Client deleted.
+[INFO] 21-12-2023 15:24:16 [main] Log - EXPECTED RESULT Text is: Client deleted.
+[INFO] 21-12-2023 15:24:16 [main] Log - deleteClient is passed.
+[INFO] 21-12-2023 15:24:17 [main] Log - Finish Suite: Thu Dec 21 15:24:17 ICT 2023
