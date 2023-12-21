@@ -55,9 +55,9 @@ public class ExcelHelper {
         }
     }
 
-    public String getCellData(int rownum, int colnum) {
+    public String getCellData(int rownum, int column) {
         try {
-            cell = sh.getRow(rownum).getCell(colnum);
+            cell = sh.getRow(rownum).getCell(column);
             String CellData = null;
             switch (cell.getCellType()) {
                 case STRING:
