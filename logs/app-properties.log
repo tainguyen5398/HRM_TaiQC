@@ -1394,3 +1394,77 @@ Session ID: d32c1aeeac24f3a1fda4e0704461f9b5
 [INFO] 21-12-2023 15:24:16 [main] Log - EXPECTED RESULT Text is: Client deleted.
 [INFO] 21-12-2023 15:24:16 [main] Log - deleteClient is passed.
 [INFO] 21-12-2023 15:24:17 [main] Log - Finish Suite: Thu Dec 21 15:24:17 ICT 2023
+[INFO] 07-10-2025 22:35:19 [main] Log - Start Suite: Tue Oct 07 22:35:18 ICT 2025
+[INFO] 07-10-2025 22:35:25 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:35:26 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:35:26 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:35:27 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:35:30 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:35:30 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:35:31 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:35:31 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[ERROR] 07-10-2025 22:35:41 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='First Name']
+[ERROR] 07-10-2025 22:35:41 [main] Log - addNewClient is failed.
+[INFO] 07-10-2025 22:35:45 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:35:45 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:35:45 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:35:46 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:35:49 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:35:49 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:35:50 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:35:50 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[ERROR] 07-10-2025 22:36:00 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='First Name']
+[ERROR] 07-10-2025 22:36:00 [main] Log - editClient is failed.
+[INFO] 07-10-2025 22:36:03 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:36:04 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:36:04 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:36:04 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:36:07 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:36:07 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:36:08 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:36:08 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: loc on the element By.xpath: //input[@placeholder='Last Name']
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: 123456 on the element By.xpath: //input[@placeholder='Password']
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: 0343760115 on the element By.xpath: //input[@placeholder='Contact Number']
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: tanloc@gmail.com on the element By.xpath: //input[@placeholder='Email']
+[INFO] 07-10-2025 22:36:09 [main] Log - Set Text: tanloc on the element By.xpath: //input[@placeholder='Username']
+[INFO] 07-10-2025 22:36:09 [main] Log - Click on the element: By.xpath: //*[@id="xin-form"]/div[1]/div[2]/div/div[2]/div/div/div/div
+[INFO] 07-10-2025 22:36:17 [main] Log - Click on the element: By.xpath: //div[@class='card-footer text-right']//button[@type='submit']
+[ERROR] 07-10-2025 22:36:27 [main] Log - TIMEOUT: Can not element visible: By.xpath: //div[contains(text(),'Client added.')]
+[ERROR] 07-10-2025 22:36:27 [main] Log - deleteClient is failed.
+[INFO] 07-10-2025 22:36:28 [main] Log - Finish Suite: Tue Oct 07 22:36:28 ICT 2025
+[INFO] 07-10-2025 22:42:58 [main] Log - Start Suite: Tue Oct 07 22:42:57 ICT 2025
+[INFO] 07-10-2025 22:43:02 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:43:02 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:43:02 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:43:02 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:43:06 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:43:06 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:43:07 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:43:07 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[ERROR] 07-10-2025 22:43:17 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='First Name']
+[ERROR] 07-10-2025 22:43:17 [main] Log - addNewClient is failed.
+[INFO] 07-10-2025 22:43:20 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:43:21 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:43:21 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:43:21 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:43:24 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:43:24 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:43:25 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:43:25 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[ERROR] 07-10-2025 22:43:32 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='First Name']
+[ERROR] 07-10-2025 22:43:32 [main] Log - editClient is failed.
+[INFO] 07-10-2025 22:43:35 [main] Log - Open: https://hrm.anhtester.com/
+[INFO] 07-10-2025 22:43:35 [main] Log - Set Text: admin_example on the element By.xpath: //input[@id='iusername']
+[INFO] 07-10-2025 22:43:35 [main] Log - Set Text: 123456 on the element By.xpath: //input[@id='ipassword']
+[INFO] 07-10-2025 22:43:35 [main] Log - Click on the element: By.xpath: //button[@type='submit']
+[INFO] 07-10-2025 22:43:38 [main] Log - ACTUAL RESULT: Text of the element is: Home
+[INFO] 07-10-2025 22:43:38 [main] Log - EXPECTED RESULT Text is: Home
+[INFO] 07-10-2025 22:43:39 [main] Log - Click on the element with JS: By.xpath: /html/body/nav/div/div/ul/li[17]/a
+[INFO] 07-10-2025 22:43:39 [main] Log - Click on the element: By.xpath: //div[1]//div[1]/div[1]/a[2]
+[INFO] 07-10-2025 22:43:45 [main] Log - Set Text: tan on the element By.xpath: //input[@placeholder='First Name']
+[INFO] 07-10-2025 22:43:46 [main] Log - Set Text: loc on the element By.xpath: //input[@placeholder='Last Name']
+[ERROR] 07-10-2025 22:43:48 [main] Log - TIMEOUT: Can not element visible: By.xpath: //input[@placeholder='Password']
+[ERROR] 07-10-2025 22:43:48 [main] Log - deleteClient is failed.
+[INFO] 07-10-2025 22:43:49 [main] Log - Finish Suite: Tue Oct 07 22:43:49 ICT 2025

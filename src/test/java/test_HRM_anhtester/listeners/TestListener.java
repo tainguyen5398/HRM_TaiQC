@@ -3,7 +3,6 @@ package test_HRM_anhtester.listeners;
 
 
 import main_HRM_anhtester.helpers.CaptureHelper;
-import main_HRM_anhtester.helpers.RecordVideo;
 import main_HRM_anhtester.reports.AllureReportManager;
 import main_HRM_anhtester.reports.ExtentReportManager;
 import main_HRM_anhtester.reports.ExtentReportTestManager;

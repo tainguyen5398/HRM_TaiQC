@@ -16,7 +16,6 @@ public class ManageClientsPage extends CommonPage {
     private final By inputPasswordTextbox = By.xpath("//input[@placeholder='Password']");
     private final By inputContractNumberTextbox = By.xpath("//input[@placeholder='Contact Number']");
     private final By inputEmailTextbox = By.xpath("//input[@placeholder='Email']");
-    private final By selectGenderDropdown = By.xpath("//input[@placeholder='First Name']");
     private final By inputUsernameTextbox = By.xpath("//input[@placeholder='Username']");
     private final By clickBrowseAttachmentButton = By.xpath("//*[@id=\"xin-form\"]/div[1]/div[2]/div/div[2]/div/div/div/div");
     private final By clickOnSaveButton = By.xpath("//div[@class='card-footer text-right']//button[@type='submit']");

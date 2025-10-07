@@ -1,7 +1,5 @@
 package test_HRM_anhtester.testcases;
 
-import main_HRM_anhtester.helpers.ExcelHelper;
-import org.testng.Assert;
 import test_HRM_anhtester.base.BaseTest;
 
 import org.testng.annotations.Test;
